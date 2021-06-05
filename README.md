@@ -38,6 +38,6 @@ notion_data.row_ids #unique match-keys that represent a row within a data table
 match_pattern = r'testlookup' #appropriate re.match regex string
 my_lookup = notion_data.lookup(match_pattern, field)
 my_lookup[0] #matching id values
-my_lookup[1] #records cooresponding to id values
+my_lookup[1] #records corresponding to id values
 
 ```
