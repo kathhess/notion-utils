@@ -28,10 +28,10 @@ notion_data.fields #returns all fields in database for reference
 notion_data.field_types #returns the field types of the fields for custom logic on parsing the json based on elements specific to a type
 notion_data.row_ids #unique match-keys that represent a row within a data table
 ```
-# Looking up a specific column values:
+# Looking up a specific column value:
 `notion_data.query_field()['field_name']`
 
-# Looking up a specific id values: 
+# Looking up a specific id value: 
 `notion_data.query_id()['row_id']`
 
 # Searching using regex to return all records matching the lookup:
