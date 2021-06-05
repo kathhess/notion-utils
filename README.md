@@ -15,7 +15,7 @@ Please note, not every type of field is accounted for in this custom parsing.
 - select (returns plain text value)
 - checkbox (returns True False boolean based on if box was checked)
 
-I do not plan on implementing additional field types at this time - if you need additional functionality please feel free to fork this repo and/or submit a pull request. These scripts are provided without guarantee or warrenty; as of writing this, all scripts have worked for my purposes - and I will continue to update the code as I notice changes within my own projects. Please note that any changes to how Notion returns field type data may lead to breakage.
+I do not plan on implementing additional field types at this time - if you need additional functionality please feel free to fork this repo and/or submit a pull request. These scripts are provided without guarantee or warrenty; as of writing this, all scripts have worked for my purposes and I will continue to update the code as I notice data structure changes within my own projects. Please note that any changes to how Notion returns field type data may lead to breakage.
 
 # Quickstart:
 ```
